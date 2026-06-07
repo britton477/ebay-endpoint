@@ -3,7 +3,7 @@ const crypto = require('crypto');
 const app = express();
 
 const VERIFICATION_TOKEN = 'PokemonCards2025SecureTokenxK9mQ7bZ';
-const ENDPOINT = 'https://ebay-verification-pjsm.onrender.com';
+const ENDPOINT = 'https://ebay-verification-pjsm.onrender.com/';
 
 app.get('/', (req, res) => {
   const challengeCode = req.query.challenge_code;
